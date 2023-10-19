@@ -1,0 +1,24 @@
+@import './base.css';
+
+.svgsize {
+  max-width: 18px;
+  max-height: 18px;
+}
+
+.editbutton {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.itemstyle {
+  display: flex;
+  flex-direction: row;
+  color: #ffffffee;
+  align-items: center;
+  font-size: larger;
+}
+.inputstyle {
+  background: var(--color-background);
+  color: #ffffffee;
+  font-size: large;
+}
