@@ -1,5 +1,3 @@
-@import './base.css';
-
 .svgsize {
   max-width: 18px;
   max-height: 18px;
@@ -11,7 +9,7 @@
 }
 
 .checkboxstyles {
-  margin-left: 5px;
+  margin-right: 15px;
 }
 
 .itemstyle {
@@ -20,11 +18,21 @@
   color: #ffffffee;
   align-items: center;
   font-size: larger;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+  background-color: #042131;
+  margin-bottom: 10px;
 }
 .inputstyle {
-  background: var(--color-background);
+  background: #001524;
   color: #ffffffee;
   font-size: large;
+  outline: none !important;
+  width: 30%;
+  border: 1px solid #063b57;
 }
 
 .completed-task {

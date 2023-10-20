@@ -8,28 +8,41 @@
   font-weight: normal;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
+.headerdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+.newtaskdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 50%;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.labelstyles {
+  white-space: nowrap;
+  font-size: large;
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.inputstyles {
+  background: #001524;
+  color: #ffffffee;
+  font-size: large;
+  margin-left: 5px;
+  outline: none !important;
+  border: 1px solid #063b57;
+}
+.svgsizes {
+  max-width: 22px;
+  max-height: 22px;
+}
+.plusbutton {
+  background-color: transparent;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
 }
